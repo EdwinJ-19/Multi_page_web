@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D8B589;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.nav{
+    position: sticky;
+}
+.nav-head h1{
+    margin: 50px 0px 0px 50px;
+}
+.nav a{
+    float: right;
+    margin: -25px 50px 0px 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav ul li{
+    transition: transform 0.3s ease-in-out;
+}
+.nav ul li:hover{
+    transform: translateY(5px);
+} 
+a:hover{
+    color: white;
+    transition: 0.6s;
+}
+.nav a.active{
+    color: white;
+}
+.nav img{
+    transition: transform 0.3s ease-in-out;
+}
+.nav img:hover{
+    border-radius: 35%;
+    transform: translateY(-5px);
+}
+ul{
+    list-style-type:none ;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+.container h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Space Mono', monospace;
+    transition: transform 0.3s ease-in-out;
+}
+.container h1:hover{
+    transform: translateY(-10px);
+}
+.container p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Space Mono', monospace;
+}
+.link{
+    margin-top: 40px;
+}
+.link .fa{
+    margin-left: 10px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+.link .fa:hover{
+    color: white;
+    transform: translateY(-10px);
+}
+.para-1 a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.para-1 p:hover{
+    color: white;
+    transform: translateY(-5px);
+}
+.para-1 .l-2:hover{
+    color: #00758f;
+}
+.para-1 .l-3:hover{
+    color: #E65100;
+}
+.para-1 .l-4:hover{
+    color: #306998;
+}
